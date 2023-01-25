@@ -18,7 +18,7 @@ function App() {
       position: position,
       wage: wage,
     }).then(() => {
-      console.log("Creation of employee is done ");
+      console.log("Creation of employee is done :  ");
     });
   };
 
