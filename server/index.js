@@ -20,6 +20,7 @@ app.post("/create", (req, res) => {
   const position = req.body.position;
   const wage = req.body.wage;
 
+  //how to insert data in database
   db.query(
     "INSERT INTO employees (name, age, country, position, wage) VALUES (?, ?, ?, ?, ?)",
     [name, age, country, position, wage],
